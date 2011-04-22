@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Title</string>
+		<key>Page Number</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Contents</string>
+		<key>Page Number</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Poem. All in the golden afternoon</string>
+		<key>Page Number</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter I. Down the Rabbit-Hole</string>
+		<key>Page Number</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter II. The Pool of Tears</string>
+		<key>Page Number</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter III. A Caucus-Race and a Long Tale</string>
+		<key>Page Number</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter IV. The Rabbit Sends in a Little Bill</string>
+		<key>Page Number</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter V. Advice from a Caterpillar</string>
+		<key>Page Number</key>
+		<integer>25</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter VI. Pig and Pepper</string>
+		<key>Page Number</key>
+		<integer>33</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter VII. A Mad Tea-Party</string>
+		<key>Page Number</key>
+		<integer>40</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter VIII. The Queen’s Croquet-Ground</string>
+		<key>Page Number</key>
+		<integer>47</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter IX. The Mock Turtle’s Story</string>
+		<key>Page Number</key>
+		<integer>54</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter X. The Lobster Quadrille</string>
+		<key>Page Number</key>
+		<integer>60</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter XI. Who Stole the Tarts?</string>
+		<key>Page Number</key>
+		<integer>66</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>Chapter XII. Alice’s Evidence</string>
+		<key>Page Number</key>
+		<integer>71</integer>
+	</dict>
+	<dict>
+		<key>Chapter Name</key>
+		<string>THE END</string>
+		<key>Page Number</key>
+		<integer>77</integer>
+	</dict>
+</array>
+</plist>

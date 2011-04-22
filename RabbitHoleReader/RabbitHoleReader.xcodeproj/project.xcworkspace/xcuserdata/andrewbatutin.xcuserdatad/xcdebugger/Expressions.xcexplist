@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "-[PDFScrollView createPage:]:PDFScrollView.m">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[BookPdfScrollView backgroundLoad:]:BookPdfScrollView.m">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[IndexViewController viewDidLoad]:IndexViewController.m">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[BokkViewController viewDidLoad]:BokkViewController.m">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[PDFScrollView openPDfFile:]:PDFScrollView.m">
+         <expressions>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>

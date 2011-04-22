@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004061841361CE9600AFE39E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 004061831361CE9600AFE39E /* Default.png */; };
+		004061861361CECC00AFE39E /* alice26b.png in Resources */ = {isa = PBXBuildFile; fileRef = 004061851361CECC00AFE39E /* alice26b.png */; };
+		00730C3313616F960084F151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00730C3213616F960084F151 /* UIKit.framework */; };
+		00730C3513616F960084F151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00730C3413616F960084F151 /* Foundation.framework */; };
+		00730C3713616F960084F151 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00730C3613616F960084F151 /* CoreGraphics.framework */; };
+		00730C3D13616F960084F151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00730C3B13616F960084F151 /* InfoPlist.strings */; };
+		00730C4013616F960084F151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C3F13616F960084F151 /* main.m */; };
+		00730C4313616F960084F151 /* RabbitHoleReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C4213616F960084F151 /* RabbitHoleReaderAppDelegate.m */; };
+		00730C4613616F970084F151 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00730C4413616F970084F151 /* MainWindow.xib */; };
+		00730C5213616F970084F151 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00730C5013616F970084F151 /* SecondView.xib */; };
+		00730C5B13616FA40084F151 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00730C5913616FA40084F151 /* MainWindow-iPad.xib */; };
+		00730C7B13617A9B0084F151 /* PdfFileCoreWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C7A13617A9B0084F151 /* PdfFileCoreWrapper.m */; };
+		00730C8013617C730084F151 /* IndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C7F13617C730084F151 /* IndexModel.m */; };
+		00730C93136187F60084F151 /* BookPdfScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C92136187F60084F151 /* BookPdfScrollView.m */; };
+		00730C99136188850084F151 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C96136188850084F151 /* TiledPDFView.m */; };
+		00730C9A136188850084F151 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730C98136188850084F151 /* PDFScrollView.m */; };
+		00730C9C136189380084F151 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00730C9B136189370084F151 /* QuartzCore.framework */; };
+		00730CB21361B2E80084F151 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730CB01361B2E70084F151 /* ContentViewController.m */; };
+		00730CB31361B2E80084F151 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00730CB11361B2E80084F151 /* ContentViewController.xib */; };
+		00730CB91361BEE10084F151 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00730CB71361BEDD0084F151 /* BookViewController.m */; };
+		00730CBA1361BEE10084F151 /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00730CB81361BEDD0084F151 /* BookViewController.xib */; };
+		00730CC81361CC660084F151 /* alice-in-wonderland-book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 00730CC51361CC660084F151 /* alice-in-wonderland-book.pdf */; };
+		00730CCA1361CC660084F151 /* Index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00730CC71361CC660084F151 /* Index.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004061831361CE9600AFE39E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		004061851361CECC00AFE39E /* alice26b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alice26b.png; sourceTree = "<group>"; };
+		00730C2E13616F960084F151 /* RabbitHoleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitHoleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00730C3213616F960084F151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00730C3413616F960084F151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00730C3613616F960084F151 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00730C3A13616F960084F151 /* RabbitHoleReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RabbitHoleReader-Info.plist"; sourceTree = "<group>"; };
+		00730C3C13616F960084F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00730C3E13616F960084F151 /* RabbitHoleReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RabbitHoleReader-Prefix.pch"; sourceTree = "<group>"; };
+		00730C3F13616F960084F151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00730C4113616F960084F151 /* RabbitHoleReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RabbitHoleReaderAppDelegate.h; sourceTree = "<group>"; };
+		00730C4213616F960084F151 /* RabbitHoleReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitHoleReaderAppDelegate.m; sourceTree = "<group>"; };
+		00730C4513616F970084F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		00730C5113616F970084F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		00730C5A13616FA40084F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		00730C7913617A9B0084F151 /* PdfFileCoreWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfFileCoreWrapper.h; sourceTree = "<group>"; };
+		00730C7A13617A9B0084F151 /* PdfFileCoreWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfFileCoreWrapper.m; sourceTree = "<group>"; };
+		00730C7E13617C730084F151 /* IndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexModel.h; sourceTree = "<group>"; };
+		00730C7F13617C730084F151 /* IndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexModel.m; sourceTree = "<group>"; };
+		00730C91136187F60084F151 /* BookPdfScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPdfScrollView.h; sourceTree = "<group>"; };
+		00730C92136187F60084F151 /* BookPdfScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPdfScrollView.m; sourceTree = "<group>"; };
+		00730C95136188850084F151 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		00730C96136188850084F151 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		00730C97136188850084F151 /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		00730C98136188850084F151 /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		00730C9B136189370084F151 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00730CAF1361B2E70084F151 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		00730CB01361B2E70084F151 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		00730CB11361B2E80084F151 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContentViewController.xib; path = RabbitHoleReader/ContentViewController.xib; sourceTree = "<group>"; };
+		00730CB61361BEDD0084F151 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		00730CB71361BEDD0084F151 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		00730CB81361BEDD0084F151 /* BookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookViewController.xib; path = RabbitHoleReader/BookViewController.xib; sourceTree = "<group>"; };
+		00730CC51361CC660084F151 /* alice-in-wonderland-book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "alice-in-wonderland-book.pdf"; path = "RabbitHoleReader/alice-in-wonderland-book.pdf"; sourceTree = "<group>"; };
+		00730CC71361CC660084F151 /* Index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Index.plist; path = RabbitHoleReader/Index.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00730C2B13616F960084F151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00730C9C136189380084F151 /* QuartzCore.framework in Frameworks */,
+				00730C3313616F960084F151 /* UIKit.framework in Frameworks */,
+				00730C3513616F960084F151 /* Foundation.framework in Frameworks */,
+				00730C3713616F960084F151 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00730C2313616F960084F151 = {
+			isa = PBXGroup;
+			children = (
+				004061851361CECC00AFE39E /* alice26b.png */,
+				004061831361CE9600AFE39E /* Default.png */,
+				00730C3813616F960084F151 /* RabbitHoleReader */,
+				00730C3113616F960084F151 /* Frameworks */,
+				00730C2F13616F960084F151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00730C2F13616F960084F151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00730C2E13616F960084F151 /* RabbitHoleReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00730C3113616F960084F151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00730C9B136189370084F151 /* QuartzCore.framework */,
+				00730C3213616F960084F151 /* UIKit.framework */,
+				00730C3413616F960084F151 /* Foundation.framework */,
+				00730C3613616F960084F151 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00730C3813616F960084F151 /* RabbitHoleReader */ = {
+			isa = PBXGroup;
+			children = (
+				00730C94136187FC0084F151 /* Pdf Classes */,
+				00730C7013617A740084F151 /* Models */,
+				00730C5D136170A60084F151 /* ViewControllers */,
+				00730C3913616F960084F151 /* Supporting Files */,
+				00730C5C1361707C0084F151 /* Resoureces */,
+			);
+			path = RabbitHoleReader;
+			sourceTree = "<group>";
+		};
+		00730C3913616F960084F151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00730C4113616F960084F151 /* RabbitHoleReaderAppDelegate.h */,
+				00730C4213616F960084F151 /* RabbitHoleReaderAppDelegate.m */,
+				00730C3A13616F960084F151 /* RabbitHoleReader-Info.plist */,
+				00730C3B13616F960084F151 /* InfoPlist.strings */,
+				00730C3E13616F960084F151 /* RabbitHoleReader-Prefix.pch */,
+				00730C3F13616F960084F151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00730C5813616FA30084F151 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				00730C5913616FA40084F151 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			path = RabbitHoleReader;
+			sourceTree = "<group>";
+		};
+		00730C5C1361707C0084F151 /* Resoureces */ = {
+			isa = PBXGroup;
+			children = (
+				00730CC51361CC660084F151 /* alice-in-wonderland-book.pdf */,
+				00730CC71361CC660084F151 /* Index.plist */,
+				00730C5813616FA30084F151 /* iPad */,
+				00730C4413616F970084F151 /* MainWindow.xib */,
+				00730CB81361BEDD0084F151 /* BookViewController.xib */,
+				00730CB11361B2E80084F151 /* ContentViewController.xib */,
+				00730C5013616F970084F151 /* SecondView.xib */,
+			);
+			name = Resoureces;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		00730C5D136170A60084F151 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00730CAF1361B2E70084F151 /* ContentViewController.h */,
+				00730CB01361B2E70084F151 /* ContentViewController.m */,
+				00730CB61361BEDD0084F151 /* BookViewController.h */,
+				00730CB71361BEDD0084F151 /* BookViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		00730C7013617A740084F151 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00730C7913617A9B0084F151 /* PdfFileCoreWrapper.h */,
+				00730C7A13617A9B0084F151 /* PdfFileCoreWrapper.m */,
+				00730C7E13617C730084F151 /* IndexModel.h */,
+				00730C7F13617C730084F151 /* IndexModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		00730C94136187FC0084F151 /* Pdf Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00730C91136187F60084F151 /* BookPdfScrollView.h */,
+				00730C92136187F60084F151 /* BookPdfScrollView.m */,
+				00730C97136188850084F151 /* PDFScrollView.h */,
+				00730C98136188850084F151 /* PDFScrollView.m */,
+				00730C95136188850084F151 /* TiledPDFView.h */,
+				00730C96136188850084F151 /* TiledPDFView.m */,
+			);
+			name = "Pdf Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00730C2D13616F960084F151 /* RabbitHoleReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00730C5513616F970084F151 /* Build configuration list for PBXNativeTarget "RabbitHoleReader" */;
+			buildPhases = (
+				00730C2A13616F960084F151 /* Sources */,
+				00730C2B13616F960084F151 /* Frameworks */,
+				00730C2C13616F960084F151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbitHoleReader;
+			productName = RabbitHoleReader;
+			productReference = 00730C2E13616F960084F151 /* RabbitHoleReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00730C2513616F960084F151 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00730C2813616F960084F151 /* Build configuration list for PBXProject "RabbitHoleReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00730C2313616F960084F151;
+			productRefGroup = 00730C2F13616F960084F151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00730C2D13616F960084F151 /* RabbitHoleReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00730C2C13616F960084F151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00730C3D13616F960084F151 /* InfoPlist.strings in Resources */,
+				00730C4613616F970084F151 /* MainWindow.xib in Resources */,
+				00730C5213616F970084F151 /* SecondView.xib in Resources */,
+				00730C5B13616FA40084F151 /* MainWindow-iPad.xib in Resources */,
+				00730CB31361B2E80084F151 /* ContentViewController.xib in Resources */,
+				00730CBA1361BEE10084F151 /* BookViewController.xib in Resources */,
+				00730CC81361CC660084F151 /* alice-in-wonderland-book.pdf in Resources */,
+				00730CCA1361CC660084F151 /* Index.plist in Resources */,
+				004061841361CE9600AFE39E /* Default.png in Resources */,
+				004061861361CECC00AFE39E /* alice26b.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00730C2A13616F960084F151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00730C4013616F960084F151 /* main.m in Sources */,
+				00730C4313616F960084F151 /* RabbitHoleReaderAppDelegate.m in Sources */,
+				00730C7B13617A9B0084F151 /* PdfFileCoreWrapper.m in Sources */,
+				00730C8013617C730084F151 /* IndexModel.m in Sources */,
+				00730C93136187F60084F151 /* BookPdfScrollView.m in Sources */,
+				00730C99136188850084F151 /* TiledPDFView.m in Sources */,
+				00730C9A136188850084F151 /* PDFScrollView.m in Sources */,
+				00730CB21361B2E80084F151 /* ContentViewController.m in Sources */,
+				00730CB91361BEE10084F151 /* BookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00730C3B13616F960084F151 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00730C3C13616F960084F151 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00730C4413616F970084F151 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00730C4513616F970084F151 /* en */,
+			);
+			name = MainWindow.xib;
+			path = RabbitHoleReader;
+			sourceTree = "<group>";
+		};
+		00730C5013616F970084F151 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00730C5113616F970084F151 /* en */,
+			);
+			name = SecondView.xib;
+			path = RabbitHoleReader;
+			sourceTree = "<group>";
+		};
+		00730C5913616FA40084F151 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00730C5A13616FA40084F151 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00730C5313616F970084F151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00730C5413616F970084F151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		00730C5613616F970084F151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitHoleReader/RabbitHoleReader-Prefix.pch";
+				INFOPLIST_FILE = "RabbitHoleReader/RabbitHoleReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00730C5713616F970084F151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitHoleReader/RabbitHoleReader-Prefix.pch";
+				INFOPLIST_FILE = "RabbitHoleReader/RabbitHoleReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00730C2813616F960084F151 /* Build configuration list for PBXProject "RabbitHoleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00730C5313616F970084F151 /* Debug */,
+				00730C5413616F970084F151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00730C5513616F970084F151 /* Build configuration list for PBXNativeTarget "RabbitHoleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00730C5613616F970084F151 /* Debug */,
+				00730C5713616F970084F151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00730C2513616F960084F151 /* Project object */;
+}
